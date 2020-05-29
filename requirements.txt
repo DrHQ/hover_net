@@ -1,4 +1,6 @@
 tensorflow-gpu==1.12.0
+tensorflow==1.12.0
+scipy
 tensorpack==0.9.0.1
 scikit-image==0.14.2
 matplotlib===3.0.2

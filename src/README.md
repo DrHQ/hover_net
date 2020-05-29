@@ -41,6 +41,10 @@ For simultaneous instance segmentation and classification, please store patches 
 
 The repository is currently set up to run simultaneous segmentation and classification. To perform nuclear classificaion, as well as segmentation, `self.type_classification` is set as `True`. Note, for this the nuclear type labels **must** be available in the 5th dimension of the input patches. Otherwise, set `self.type_classification = False`. 
 
+## Extract patches
+You may need to extract the patches first. Use:
+`python extract_patches.py'
+
 ## Training
 
 To train the network, the command is: <br/>
