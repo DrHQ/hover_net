@@ -43,7 +43,8 @@ The repository is currently set up to run simultaneous segmentation and classifi
 
 ## Extract patches
 You may need to extract the patches first. Use:
-`python extract_patches.py'
+`python extract_patches.py' for training
+`python extract_patches_val.py' for validation (newly added)
 
 ## Training
 

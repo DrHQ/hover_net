@@ -34,10 +34,10 @@ if __name__ == '__main__':
 
     ### Paths to data - these need to be modified according to where the original data is stored
     img_ext = '.png'
-    img_dir = '../../CoNSeP/train/Images/'
-    ann_dir = '../../CoNSeP/train/Labels/' 
+    img_dir = '../../CoNSeP/Test/Images/'
+    ann_dir = '../../CoNSeP/Test/Labels/' 
     ####
-    out_dir = "../../CoNSeP/train/%dx%d_%dx%d" % \
+    out_dir = "../../CoNSeP/Test/%dx%d_%dx%d" % \
                         (win_size[0], win_size[1], step_size[0], step_size[1])
 
     file_list = glob.glob('%s/*%s' % (img_dir, img_ext))
